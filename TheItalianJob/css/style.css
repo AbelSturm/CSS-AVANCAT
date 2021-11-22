@@ -1,3 +1,4 @@
+/* Estils menus */
 div.menu {
     margin-top: 25px;
     height: 50px;
@@ -16,6 +17,7 @@ div.borde-menu a {
     margin-left: auto;
 }
 
+/* Pagina HOME */
 div.imatge {
     width: 100%;
     padding-top: 10px;
@@ -43,6 +45,7 @@ div.bloc1 {
 }
 div.bloc1 p {
     color: rgb(56, 38, 38);
+    width: 40%;
 }
 
 div.bloc2 {
@@ -63,12 +66,80 @@ div.bloc3 {
     text-align: right;
     margin-right: 5%;
 }
-div.bloc3 p {
-    color: rgb(56, 38, 38);
-}
+
 
 div.bloc4 {
     width: 60%;
-    height: 100%;
     float: right;
+}
+
+div.blocpare {
+    height: 300px;
+}
+
+/* SECCIO "TRAILER" */
+div.video {
+    text-align: center;
+    height: 500px;
+    padding-bottom: 25px;
+}
+
+iframe {
+    height: 100%;
+    width: 60%;
+}
+
+
+/* SECCIO "ON VEURELA?" */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+table {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+div.blocnp {
+    width: 80%;
+    height: 300px;
+}
+
+div.columnp {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+img.netprime {
+    width: 50%;
+    display:block;
+    margin:auto;  
+}
+
+/* PAGINA PERSONATJES */
+div.columperso {
+    width: 50%;
+    float: left;
+}
+
+img.mark {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+/* PAGINA INFO_ADICIONAL */
+
+
+/* GENERALS */
+h1.titol {
+    text-align: center;
+}
+
+div.centrardiv {
+    display: flex;
+    justify-content: center;
 }
