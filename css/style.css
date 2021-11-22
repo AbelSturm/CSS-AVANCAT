@@ -1,0 +1,74 @@
+div.menu {
+    margin-top: 25px;
+    height: 50px;
+}
+
+div.borde-menu {
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+}
+
+div.borde-menu a {
+    margin: auto;
+    margin-left: auto;
+}
+
+div.imatge {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+div.imatge img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+div.linea1 {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+div.bloc1 {
+    width: 35%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    margin-right: 5%;
+}
+div.bloc1 p {
+    color: rgb(56, 38, 38);
+}
+
+div.bloc2 {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-right: 10%;
+}
+
+div.linea2 {
+    width: 100%;
+}
+
+div.bloc3 {
+    width: 35%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    margin-right: 5%;
+}
+div.bloc3 p {
+    color: rgb(56, 38, 38);
+}
+
+div.bloc4 {
+    width: 60%;
+    height: 100%;
+    float: right;
+}

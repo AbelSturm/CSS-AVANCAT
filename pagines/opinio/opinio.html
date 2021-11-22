@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Abel Sturm">
+        <meta name="description" content="Pagina ">
+        <title>Opinio</title>
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    </head>
+    <body>
+
+        <div class="menu">
+            <div class="borde-menu">
+                <a href="../../home.html">Home</a>
+                <a href="../director/director.html">Director</a>
+                <a href="../personatges/personatges.html">Personatges</a>
+                <a href="../on_veurela/on_veurela.html">On veure-la?</a>
+                <a href="../trailer/trailer.html">Trailer</a>
+                <a href="../info_adicional/info_adicional.html">Info Adicional</a>
+            </div>
+        </div>
+
+        <h1 class="titol">Formulari d'Opinio</h1>
+
+        <form>
+            <fieldset>
+                <legend>Formulari d'opinio sobre la pelicula "The Italian Job"</legend>
+                <p>Alias: <input type="text" name="alias" required>*</p>
+                <p>El teu sexe:</p>
+                <input type="radio" name="sexe" value="HOME"> HOME
+                <input type="radio" name="sexe" value="DONA"> DONA
+                <input type="radio" name="sexe" value="ALTRES"> ALTRES
+                <p>Email: <input type="email" name="email"></p>
+                <p>Telefon: <input type="tel" name="telefon"></p>
+                <p>T'has vist la pelicula? *</p>
+                <input type="radio" name="vist" value="si" required> SI
+                <input type="radio" name="vist" value="no" required> NO
+                <p>Quina opinio tens sobre la pelicula?</p>
+                <textarea name="message" rows="10" cols="30">La pelicula...</textarea>
+                <p>Quin es el teu personatge preferit?</p>
+                <p><input type="checkbox" name="JavaScript"> Charlie Croker</p>
+                <p><input type="checkbox" name="Python"> Stella Bridger</p>
+                <p><input type="checkbox" name="JAVA"> Steve Frazelli</p>
+                <p><input type="checkbox" name="C#"> John Bridger</p>
+                <p><input type="checkbox" name="PHP"> Handsome Rob</p>
+                <p><input type="image" name="enviar" src="./img/enviar.png" alt="Enviar" height="25px" width="25px"></p>
+                <button type="reset">Esborrar</button>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
