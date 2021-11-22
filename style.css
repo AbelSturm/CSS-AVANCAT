@@ -1,0 +1,75 @@
+body,footer {
+    background-color: rgb(48, 47, 47);
+}
+
+h1 {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(199, 199, 199);
+}
+
+.menu > div {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.nav {
+    background-color: aliceblue;
+    width: 15%;
+    height: 250px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.hola {
+    background-color: aliceblue;
+    width: 70%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.aside {
+    background-color: aliceblue;
+    width: 15%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.warp {
+    background-color: rgb(48, 47, 47);
+    margin: 5px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.img1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(173, 168, 162);
+    margin: 5px;
+}
+
+.img2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(146, 141, 135);
+    margin: 5px;
+}
+
+img {
+    width: 150px;
+    border: 1px dotted;
+    margin: 5px;
+}
+
+footer {
+    margin-top: 30px;
+}
