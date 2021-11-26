@@ -133,21 +133,26 @@ img.mark {
 
 /* PAGINA INFO_ADICIONAL */
 img.ia_footer {
-    width: 30%;
+    width: 35%;
     display: block;
     margin: auto;
 }
 
 /* PAGINA DIRECTOR */
 div.direc1 {
-    width: 100%;
     height: 30%;
 }
 
 div.direccol {
     width: 50%;
-    height: 100%;
     float: left;
+}
+
+div.direccol img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-bottom: 250px;
 }
 
 /* PAGINA OPINIO */
